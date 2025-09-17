@@ -293,7 +293,7 @@ const StaticModalContent: React.FC<{ game: Game }> = ({ game }) => {
                       <div className="relative h-20 w-20 rounded-2xl mx-auto">
                         {/* {!isBrandIconLoaded && <div className="absolute inset-0 bg-gray-200 dark:bg-gray-700 animate-pulse rounded-2xl"></div>}
                         <img 
-                            src="https://storage.googleapis.com/www.ysi-group.com/ysi-images/pwa_icon_slotz.png" 
+                            src="https://storage.googleapis.com/www.ysi-group.com/ysi-images/pwa_icon_slotsz.png" 
                             alt="Brand Icon Tile" 
                             className={`h-20 w-20 rounded-2xl mx-auto transition-opacity duration-500 ${isBrandIconLoaded ? 'opacity-100' : 'opacity-0'}`} 
                             onLoad={() => setBrandIconIsLoaded(true)}

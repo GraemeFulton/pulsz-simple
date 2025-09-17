@@ -89,7 +89,7 @@ const Sidebar: React.FC<{ theme: string; toggleTheme: () => void }> = ({ theme, 
             <div className="relative h-6 w-6">
               {/* {!isIconLoaded && <div className="absolute inset-0 bg-gray-300 dark:bg-gray-700 animate-pulse rounded-md"></div>} */}
               {/* <img
-                src="https://storage.googleapis.com/www.ysi-group.com/ysi-images/pwa_icon_slotz.png"
+                src="https://storage.googleapis.com/www.ysi-group.com/ysi-images/pwa_icon_slotsz.png"
                 alt="PWA Icon"
                 className={`h-6 w-6 rounded-md transition-opacity duration-500 ${isIconLoaded ? 'opacity-100' : 'opacity-0'}`}
                 onLoad={() => setIsIconLoaded(true)}
