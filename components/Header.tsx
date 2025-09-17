@@ -5,8 +5,8 @@ import Logo from './Logo';
 const Header: React.FC = () => {
   return (
     <header className="bg-white dark:bg-gray-800 shadow-sm border-b border-gray-200 h-16 flex items-center justify-center shrink-0 dark:border-b dark:border-gray-700">
-      <div className="w-full max-w-[1200px] flex items-center justify-between px-8">
-        <Logo className="h-6" />
+      <div className="w-full max-w-[1200px] flex items-center justify-between">
+        <Logo className="h-8" />
         <div className="relative w-full max-w-md">
           <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
             <SearchIcon className="h-5 w-5 text-gray-400" />
